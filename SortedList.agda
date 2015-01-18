@@ -68,7 +68,7 @@ data SortedList : ℕ → Set where
 -- the arguments to ⋉ are
 -- m : a natural number to prepend to the given sorted list xs
 -- P : a proof that m is less than the head of the list xs
--- xs : a list
+-- xs : a list such that head xs = n
 
 -- for constant natural numbers, proofs that n ≤ m are trivial since
 -- ≤ is decidable; this is why we pass in `tt` in the examples below
