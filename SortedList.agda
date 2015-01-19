@@ -29,7 +29,7 @@ fst (a , b) = a
 snd : {A B : Proposition} → A ∧ B → B
 snd (a , b) = b
 
--- conjunction = Cartesian product
+-- Cartesian product = conjunction
 _×_ = _∧_
 
 -- ∨ = disjunction
@@ -67,7 +67,7 @@ data SortedList : ℕ → Set where
 
 -- the arguments to ⋉ are
 -- m : a natural number to prepend to the given sorted list xs
--- P : a proof that m is less than the head of the list xs
+-- p : a proof that m (the new head) is ≥ head xs
 -- xs : a list such that head xs = n
 
 -- for constant natural numbers, proofs that n ≤ m are trivial since
