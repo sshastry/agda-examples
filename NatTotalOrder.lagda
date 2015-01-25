@@ -7,6 +7,8 @@ Type Theory Corner - Introduction to Agda
 with some help from
     http://oxij.org/note/BrutalDepTypes/
 
+compare with decTotalOrder in [Data.Nat](http://agda.github.io/agda-stdlib/Data.Nat.html)
+
 \begin{code}
 module NatTotalOrder where
 
@@ -223,4 +225,3 @@ record TO (A : Set) : Set₁ where
 \end{code}
 
 This proves that the natural numbers are a decidable total order.
-
